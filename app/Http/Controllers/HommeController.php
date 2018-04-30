@@ -52,6 +52,8 @@ public function index(Request $request, Builder $htmlBuilder)
         $Home = new Home;
         $Home->textbesar = $request->textbesar;
         $Home->textkecil = $request->textkecil;
+        $Home->link = $request->link;
+
 // textkecil field cover jika ada cover yang diupload
         if ($request->hasFile('cover')) {
 // Mengambil file yang diupload

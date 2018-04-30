@@ -279,10 +279,6 @@ $product =Product::create(['id' => '35','Kode' => 'Lorem Ipsum 34','kategori_id'
 
 
 
-$home = Home::create(['id' => '1','textbesar' => 'new arival','textkecil' => 'Kulit Collection 2018','cover' => 'dab3a388435ae09e10e43011447dbd85.jpg','created_at' => '2018-04-29 14:26:20','updated_at' => '2018-04-29 14:26:20']);
-$home = Home::create(['id' => '2','textbesar' => 'Get Now','textkecil' => 'Discont 10% At Today','cover' => '0964eefd17eb950a3751a35fdbfc87bd.jpg','created_at' => '2018-04-29 14:27:24','updated_at' => '2018-04-29 14:31:45']);
-$home = Home::create(['id' => '3','textbesar' => 'Ready Now','textkecil' => 'Buy 6  Get 1','cover' => '9637c0d5f307c19012cd076c1d180f76.jpg','created_at' => '2018-04-29 14:32:59','updated_at' => '2018-04-29 14:33:31']);
-
 
 $about =About::create(['id' => '1','cover' => '4ffbc9e1e3a6212e16bc479294e547b9.jpg','cover1' => '4ffbc9e1e3a6212e16bc479294e547b9.jpg','atas' => 'Our story','tengah' => '<!DOCTYPE html>
 <html>

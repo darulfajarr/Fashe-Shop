@@ -17,6 +17,7 @@ class CreateHomesTable extends Migration
             $table->increments('id');
             $table->string('textbesar');
             $table->string('textkecil');
+            $table->string('link');
             $table->string('cover')->nullable();
             $table->timestamps();
         });

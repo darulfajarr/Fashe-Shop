@@ -18,6 +18,14 @@
 </div>
 <br>
 
+<div class="form-group{{ $errors->has('link') ? ' has-error' : '' }}">
+	{!! Form::label('link', 'Link Yang Di Tuju', ['class'=>'col-md-2 control-label']) !!}
+	<div class="col-md-8">
+		{!! Form::text('link', null, ['class'=>'form-control']) !!}
+		{!! $errors->first('link', '<p class="help-block">:message</p>') !!}
+	</div>
+</div>
+<br>
 
 
 <div class="form-group{{ $errors->has('cover') ? ' has-error' : '' }}">

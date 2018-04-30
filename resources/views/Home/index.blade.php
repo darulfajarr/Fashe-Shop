@@ -29,6 +29,7 @@
             <th>Gambar</th>
             <th>Text Besar</th>
             <th>Text Kecil</th>
+            <th>Link</th>
             <th>Aksi</th>
           </tr>
         </thead>
@@ -40,6 +41,7 @@
             <td><img width="200" height="100" src="{{asset('/img/img1/'.$data->cover.'')}}" /></td>
             <td>{{$data->textbesar}}</td>
             <td>{{$data->textkecil}}</td>
+            <td>{{$data->link}}</td>
             <td>
               <form action="{{route('Home.destroy',$data->id)}}" method="post">
                 <input type="hidden" name="_method" value="Delete">
